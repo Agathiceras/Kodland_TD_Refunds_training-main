@@ -78,7 +78,7 @@ const CONTENT = {
    <img src="Images/Image_1.png" alt="" style="display:block;width:100%;border-radius:var(--r);margin-bottom:14px;box-shadow:var(--shadow)">
   `},
   {t:'📉 Los reembolsos casi nunca son repentinos', html:`
-   <div class="card"><p>Esto es lo más útil que debes saber sobre ellos. Para cuando una familia pide que le devuelvan su dinero, la historia suele llevar semanas en marcha — y la mayor parte ocurrió <strong>frente al tutor.</strong></p></div>
+   <div class="card"><p>Esto es lo más útil que debes saber sobre ellos. Para cuando una familia pide que le devuelvan su dinero, la historia suele llevar semanas en marcha, y la mayor parte ocurrió <strong>frente al tutor.</strong></p></div>
    ${stepFlow([
      {ic:'📋', label:'Deja de terminar el trabajo en clase'},
      {ic:'🏠', label:'Deja de entregar la tarea'},
@@ -101,7 +101,7 @@ const CONTENT = {
    <tr><td>La familia siente que una persona real sigue el progreso</td><td><strong>Un cambio de tutor, grupo u horario cayó mal.</strong> Sé transparente, coordina rápido.</td><td></td></tr>
    <tr><td>Un niño que faltó a clases realmente se pone al día</td><td><strong>A la familia le dijeron algo distinto al inscribirse.</strong> Aclara con honestidad. Repórtalo.</td><td></td></tr>
    </table></div></div>
-   ${co('co-danger','🚨',`<p><strong>Nada de esto es tu culpa, pero el trabajo real sigue siendo tuyo.</strong> Adaptar la tarea, cambiar cómo manejas el grupo, proteger a un niño durante un cambio. E igual de importante: <strong>avísale a alguien.</strong> Informa a tu Team Leader, involucra a Atención al Cliente, deja el comentario en el BO. Si no lo haces, el problema queda en silencio — y unas semanas después, perdemos al niño.</p>`)}
+   ${co('co-danger','🚨',`<p><strong>Nada de esto es tu culpa, pero el trabajo real sigue siendo tuyo.</strong> Adaptar la tarea, cambiar cómo manejas el grupo, proteger a un niño durante un cambio. E igual de importante: <strong>avísale a alguien.</strong> Informa a tu Team Leader, involucra a Atención al Cliente, deja el comentario en el BO. Si no lo haces, el problema queda en silencio y, unas semanas después, perdemos al niño.</p>`)}
   `},
   {t:'💬 Hablar con las familias: qué haces tú y en qué momento lo derivas', html:`
    <img src="Images/Image_2.png" alt="" style="display:block;width:100%;border-radius:var(--r);margin-bottom:14px;box-shadow:var(--shadow)">
@@ -134,7 +134,7 @@ const CONTENT = {
    </table></div></div>
    ${co('co-idea','💡',`<p><strong>La diferencia en una línea: tú hablas del niño. Tu Team Leader y Atención al Cliente hablan de las condiciones del servicio.</strong></p>`)}
    ${co('co-danger','⛔',`<p><strong>Nunca prometas y nunca te niegues.</strong></p><p>Ni <em>“lo vamos a pasar a otro grupo”</em>. Ni <em>“eso no es posible”</em>. Ambas son decisiones que no te corresponden.</p>
-   <p><strong>Pero tampoco seas frío ni evasivo.</strong> Lo que siempre debes mostrar, de inmediato, es que de verdad quieres que este niño esté cómodo y tenga la mejor experiencia de aprendizaje posible — y que ya estás trabajando en ello. <em>“Lo vi, me importa, estoy viendo qué podemos hacer y le vuelvo a escribir.”</em> Eso no es una promesa. Es lo que mantiene a una familia con nosotros mientras se encuentra la respuesta.</p>`)}
+   <p><strong>Pero tampoco seas frío ni evasivo.</strong> Lo que siempre debes mostrar, de inmediato, es que de verdad quieres que este niño esté cómodo y tenga la mejor experiencia de aprendizaje posible y que ya estás trabajando en ello. <em>“Lo vi, me importa, estoy viendo qué podemos hacer y le vuelvo a escribir.”</em> Eso no es una promesa. Es lo que mantiene a una familia con nosotros mientras se encuentra la respuesta.</p>`)}
    <div class="card"><p><strong>Siempre puedes escribir directamente, sin consultar antes,</strong> sobre lo cotidiano de la enseñanza: cómo fue la clase, algo que el niño hizo bien, una clase perdida y qué debe ponerse al día, una pregunta sobre cómo le va en casa. Muéstrate disponible y cálido en todo eso, porque es tu trabajo y es lo que hace posibles las conversaciones más difíciles más adelante.</p></div>
   `}
  ],
@@ -246,7 +246,7 @@ const CONTENT = {
    ${iconGrid([
      {ic:'📉', html:`El niño asiste a <strong>menos de la mitad</strong> de sus clases`},
      {ic:'📊', html:`El trabajo en clase o la tarea está <strong>muy por debajo del promedio del grupo;</strong> como regla general, esto significa una diferencia de 15 puntos o más`},
-     {ic:'🤔', html:`La asistencia está en un punto intermedio — no desapareció, pero no es confiable — <strong>y</strong> además se cumple una de las anteriores`},
+     {ic:'🤔', html:`La asistencia está en un punto intermedio, es decir, el niño no ha dejado de asistir, pero su asistencia no es confiable; <strong>además</strong>, se cumple una de las condiciones anteriores`},
      {ic:'0️⃣', html:`<strong>Dos o más clases seguidas</strong> sin nada entregado`}
    ])}
    ${co('co-danger','🚨',`<p><strong>Y actúa de inmediato, sin importar ningún número, si:</strong> el niño dejó de hablar o de aparecer en cámara cuando antes lo hacía · intentó participar y no llegaste a darle la palabra · te dijo que algo anda mal · tienes un mal presentimiento. <strong>Tu criterio cuenta como señal.</strong></p>`)}
@@ -436,7 +436,7 @@ const CONTENT = {
        '<strong>Envía la grabación más lo único que importa.</strong> No “vean la clase completa” — señala la parte que de verdad importa.'
      ]},
      {ic:'⏳', label:'Antes de la próxima clase', items:[
-       '<strong>Cinco minutos individuales</strong>, o una breve explicación por escrito del único concepto que necesita para reincorporarse — un concepto, no toda la clase.'
+       '<strong>Dedica cinco minutos a una atención individual</strong> o proporciona una breve explicación por escrito del único concepto que necesita para reincorporarse; céntrate en ese concepto y no en toda la clase.'
      ]},
      {ic:'🏫', label:'En la próxima clase', items:[
        '<strong>Dale un logro temprano, fácil y visible</strong>, para que vuelva sintiéndose capaz y no atrasado.',
@@ -495,7 +495,7 @@ const CONTENT = {
    ${stepIconBlock('⚡','Adapta — en la próxima clase, sin pedir permiso', `<ul><li>Divide la tarea en pequeños logros (10 min)</li><li>Da un objetivo más simple y explícito, en voz alta</li><li>Normaliza los errores; pregúntale cómo va <strong>antes</strong> de que crezca la frustración</li><li>¿Sigue atascado después de 2 clases? Agenda una sesión con tu <strong>Mentor Regional</strong> para conseguir ideas de enseñanza</li></ul>`)}
    ${stepIconBlock('🗣️','Coordina — TL + Evaluación de Tutores en el BO, esta semana', `<ul><li>Reporta lo que ves y cómo se siente el niño</li><li>Pide una clase de diagnóstico/nivelación si la brecha es real</li><li>Nunca plantees tú el tema del nivel con la familia</li></ul>`)}
    ${stepIconBlock('👪','Familia', `<p>Solo lo que te corresponde: <em>“apoyo extra en las clases, ya lo comenté con mi equipo”</em>. Nada sobre niveles. Haz seguimiento en 2 clases.</p>`)}
-   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, porque el intento de retención empieza en tu próxima clase con este niño.</p>`)}
+   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, ya que el intento de retención comienza en tu próxima clase con este niño.</p>`)}
   `)}
   ${accItem('😴 5.2 · El trabajo es demasiado fácil', `
    <img src="Images/Image_7.png" alt="" style="display:block;width:100%;border-radius:var(--rsm);margin-bottom:14px;box-shadow:var(--shadow)">
@@ -503,7 +503,7 @@ const CONTENT = {
    ${stepIconBlock('⚡','Adapta — de inmediato', `<ul><li>Un desafío adicional real: la misma habilidad, una consigna más difícil</li><li>Un pequeño rol de mentor en el grupo</li><li>Dale opciones; nunca lo dejes sin hacer nada</li></ul>`)}
    ${stepIconBlock('🗣️','Coordina — TL + Evaluación de Tutores en el BO, esta semana', `<p>Di exactamente: <em>“necesita subir de nivel, no es un problema de motivación”</em>. Pide una clase de diagnóstico/evaluación de nivel.</p>`)}
    ${stepIconBlock('👪','Familia', `<p>Solo: <em>“aprende muy rápido, le estoy dando desafíos extra, ya lo comenté con mi equipo”</em>. Haz seguimiento en 2 clases.</p>${co('co-ok','✅',`<p>Este caso se resuelve a menudo, pero solo cuando alguien comunica lo que está sucediendo.</p>`)}`)}
-   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, porque el intento de retención empieza en tu próxima clase con este niño.</p>`)}
+   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, ya que el intento de retención comienza en tu próxima clase con este niño.</p>`)}
   `)}
   ${accItem('🧩 5.3 · Una necesidad educativa especial', `
    <img src="Images/Image_8.png" alt="" style="display:block;width:100%;border-radius:var(--rsm);margin-bottom:14px;box-shadow:var(--shadow)">
@@ -512,7 +512,7 @@ const CONTENT = {
    ${stepIconBlock('⚡','Adapta — aquí está la mayor parte del trabajo, y es todo tuyo', `<ul><li>Unidades más cortas, estructura predecible, <strong>avisa antes de cada transición</strong></li><li>Instrucciones escritas + habladas; cámara opcional</li><li>Adapta la tarea en sí; protege la rutina por encima de todo</li><li>Tu <strong>Mentor Regional</strong> puede ayudarte a armar un plan para este niño en particular</li></ul>${co('co-danger','🚨',`<p>Primero esfuérzate de verdad. Pero si la brecha sigue siendo demasiado grande, <strong>escala la situación de inmediato,</strong> ya que hacerlo no significa que hayas fracasado.</p>`)}`)}
    ${stepIconBlock('🗣️','Coordina — TL de inmediato + Evaluación de Tutores en el BO', `<p>Si las clases individuales o un tutor con experiencia en necesidades educativas especiales ayudarían, <strong>recomiéndalo — no lo ofrezcas.</strong></p>`)}
    ${stepIconBlock('👪','Familia — con cuidado', `<p>Revisa primero el perfil (2.1); si no hay nada registrado, pregunta con delicadeza. Escribe lo que averigües en los Comentarios del BO.</p>${co('co-danger','⛔',`<p>Nunca: <em>“no puede seguir el ritmo”</em> ni nada que suene a diagnóstico. Haz seguimiento cada 2 clases, y siempre después de cualquier cambio.</p>`)}`)}
-   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, porque el intento de retención empieza en tu próxima clase con este niño.</p>`)}
+   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, ya que el intento de retención comienza en tu próxima clase con este niño.</p>`)}
   `)}
   ${accItem('📐 5.4 · El niño, la edad o el formato no encajan', `
    <img src="Images/Image_9.png" alt="" style="display:block;width:100%;border-radius:var(--rsm);margin-bottom:14px;box-shadow:var(--shadow)">
@@ -520,7 +520,7 @@ const CONTENT = {
    ${stepIconBlock('⚡','Adapta', `<p>Prueba diferentes estrategias, como acortar las actividades, simplificarlas, ofrecer más demostraciones y dedicarle más atención individual. Conoce el límite: a un niño que todavía no sabe leer no se le puede enseñar con un curso que depende mucho de la lectura.</p>`)}
    ${stepIconBlock('🗣️','Coordina — TL + Evaluación de Tutores en el BO', `<p>Di exactamente: <em>“es una conversación de ubicación, no de motivación”</em>. Derívalo a la persona o al equipo correspondiente, porque no es una decisión que te corresponda tomar.</p>`)}
    ${stepIconBlock('👪','Familia — solo si tu TL te lo pide', `<p>Puede haber varias opciones, pero <strong>tú no las presentas.</strong> Sigue el mensaje exacto que te dé tu TL, o mantente al margen.</p>`)}
-   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, porque el intento de retención empieza en tu próxima clase con este niño.</p>`)}
+   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, ya que el intento de retención comienza en tu próxima clase con este niño.</p>`)}
   `)}
   ${accItem('👥 5.5 · El grupo es demasiado numeroso y el niño nunca tiene su turno', `
    <img src="Images/Image_10.png" alt="" style="display:block;width:100%;border-radius:var(--rsm);margin-bottom:14px;box-shadow:var(--shadow)">
@@ -530,7 +530,7 @@ const CONTENT = {
    ${stepIconBlock('⚡','Adapta — es una habilidad, y se puede aprender', `<ul><li>Registro de turnos (3.4): lista visible, una marca por turno, revisión a mitad de la clase</li><li>Segmentos más cortos, el chat usado de forma deliberada, parejas o tareas pequeñas</li><li>Responde por escrito en 24 h cualquier pregunta que haya quedado sin respuesta</li><li>Precisamente para esto puedes solicitar una sesión con tu <strong>Mentor Regional,</strong> especialmente si no estás logrando resolver la situación</li></ul>`)}
    ${stepIconBlock('🗣️','Coordina — TL', `<p>Solo después de intentarlo de verdad: tamaño del grupo, formato, quién se está quedando afuera, qué cambiaste. Un grupo más pequeño es posible, pero solo si tu TL lo sabe.</p>`)}
    ${stepIconBlock('👪','Familia — solo si lo acordaste con tu TL', `<p>No plantees tú un cambio de grupo. Sí puedes decir con calidez que notaste lo que estaba sucediendo y que estás cambiando la forma en que diriges el grupo, ya que esa parte sí depende de ti.</p>`)}
-   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, porque el intento de retención empieza en tu próxima clase con este niño.</p>`)}
+   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, ya que el intento de retención comienza en tu próxima clase con este niño.</p>`)}
   `)}
   ${accItem('🔀 5.6 · Un cambio de tutor, grupo u horario cayó mal', `
    <img src="Images/Image_11.png" alt="" style="display:block;width:100%;border-radius:var(--rsm);margin-bottom:14px;box-shadow:var(--shadow)">
@@ -549,7 +549,7 @@ const CONTENT = {
    <div class="card"><p>En un traspaso rutinario y planificado, en la mayoría de las regiones es el tutor, y no Atención al Cliente, quien anuncia el cambio directamente en el chat del grupo y se presenta. Atención al Cliente normalmente solo interviene en cambios inesperados o casos delicados.</p></div>
    ${stepIconBlock('🗣️','Coordina — TL', `<p>De inmediato si algún niño tiene una necesidad educativa especial, o si un nuevo horario no le funciona a una familia.</p>`)}
    ${stepIconBlock('👪','Familia — como tutor nuevo, con calidez', `<p style="font-style:italic">“¡Hola! Soy [nombre] y a partir de ahora acompaño a este grupo — ya leí sobre [estudiante] para que retomemos justo donde lo dejó.”</p><p>Solo entusiasmo — no el motivo del cambio.</p>`)}
-   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, porque el intento de retención empieza en tu próxima clase con este niño.</p>`)}
+   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, ya que el intento de retención comienza en tu próxima clase con este niño.</p>`)}
   `)}
   ${accItem('⚠️ 5.7 · Algo falló de nuestro lado', `
    <img src="Images/Image_12.png" alt="" style="display:block;width:100%;border-radius:var(--rsm);margin-bottom:14px;box-shadow:var(--shadow)">
@@ -558,7 +558,7 @@ const CONTENT = {
    ${stepIconBlock('⚡','Adapta', `<p>Mantén la calma, normalízalo (3.7), cuida el ánimo del grupo, envía la grabación, aplica el plan para ponerse al día (4.3).</p>`)}
    ${stepIconBlock('🗣️','Coordina — TL el mismo día', `<ul><li>Conversen sobre una clase extra de recuperación</li><li>Involucra a Atención al Cliente si la familia está molesta o si hay un tema comercial</li><li>Envía una Evaluación de Tutores en el BO</li></ul>`)}
    ${stepIconBlock('👪','Familia — acuerda primero el mensaje con tu TL, el mismo día', `<p><em>“Ya lo planteé con mi equipo y le vamos a responder”</em> — y luego asegúrate de que alguien lo haga, hoy.</p>${co('co-danger','⛔',`<p>Nunca prometas la clase extra, nunca la descartes. Seguimiento: dale el primer turno real en la próxima clase.</p>`)}`)}
-   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, porque el intento de retención empieza en tu próxima clase con este niño.</p>`)}
+   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, ya que el intento de retención comienza en tu próxima clase con este niño.</p>`)}
   `)}
   ${accItem('📢 5.8 · “Esto no es lo que nos dijeron”', `
    <img src="Images/Image_13.png" alt="" style="display:block;width:100%;border-radius:var(--rsm);margin-bottom:14px;box-shadow:var(--shadow)">
@@ -567,7 +567,7 @@ const CONTENT = {
    ${stepIconBlock('⚡','Adapta', `<p>Para el niño no cambia nada, ya que el tutor sigue enseñando bien.</p>`)}
    ${stepIconBlock('🗣️','Coordina — TL + Atención al Cliente, antes de responder cualquier cosa', `<ul><li>Llévalo a tu TL el mismo día</li><li>Involucra a Atención al Cliente, porque su equipo es el encargado de gestionar los siguientes pasos</li><li>Escribe las palabras textuales de la familia en una Evaluación de Tutores en el BO</li></ul><p>Está bien acusar recibo: <em>“gracias, voy a llevar esto a mi equipo y le vuelvo a escribir”</em>. No es una respuesta. <span style="font-size:12.5px">(Si lo que piden es algo pequeño — una clase extra — muchas veces es algo que tú y tu TL resuelven directamente, sin Atención al Cliente. Pregúntale a tu TL cuál es el caso.)</span></p>`)}
    ${stepIconBlock('👪','Familia — solo con la aprobación de tu TL', `<ol><li>Reconoce lo que te dicen, sin culpar a nadie</li><li>Muestra que te importa el niño</li><li>Pasa el caso a Atención al Cliente de forma ordenada</li></ol>${co('co-danger','⛔',`<p>Nunca: culpar a un colega, discutir u ofrecer soluciones por tu cuenta.</p>`)}`)}
-   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, porque el intento de retención empieza en tu próxima clase con este niño.</p>`)}
+   ${co('co-idea','🔴',`<p><strong>¿Ya recibiste la solicitud de reembolso por este motivo?</strong> Ve directo al Módulo 7, ya que el intento de retención comienza en tu próxima clase con este niño.</p>`)}
   `)}
   `}
  ],
@@ -654,7 +654,7 @@ const CONTENT = {
      {ic:'🙋', html:`<strong>Dale un turno real.</strong> No se trata de hacer una pregunta sin sentido, sino de crear un momento genuino en el que se sienta visto y le vaya bien.`},
      {ic:'🏆', html:`<strong>Incluye un logro temprano, fácil y visible.</strong> Debería salir de la clase sintiéndose capaz, no atrasado.`},
      {ic:'👀', html:`<strong>Hazlo sentir notado</strong> de manera específica, en lugar de recurrir a comentarios genéricos. La misma regla que en cada conversación individual de esta capacitación.`},
-     {ic:'🤐', html:`<strong>No menciones la solicitud.</strong> Esta clase no es el lugar para esa conversación, aunque el niño saque el tema — redirige con calidez y sigue enseñando.`}
+     {ic:'🤐', html:`<strong>No menciones la solicitud.</strong> Esta clase no es el lugar para esa conversación, aunque el niño saque el tema, redirige la conversación con calidez y continúa enseñando.`}
    ])}
   `},
   {t:'📮 7.3 · Mantén informada a Atención al Cliente, rápido — sigue siendo tu trabajo', html:`
@@ -665,7 +665,7 @@ const CONTENT = {
      'Cualquier cosa que ya adaptaste u ofreciste, para que Atención al Cliente no la duplique',
      'Tu Team Leader al tanto, el mismo día'
    ])}
-   ${co('co-idea','💡',`<p>Puedes enterarte de que existe una solicitud a través de los propios comentarios de Atención al Cliente en el perfil del niño en el BO — no hay un sistema automático que te avise en cuanto una familia pide un reembolso. Tú le das señales a Atención al Cliente; ellos no te envían actualizaciones.</p>`)}
+   ${co('co-idea','💡',`<p>Puedes enterarte de que existe una solicitud a través de los propios comentarios de Atención al Cliente en el perfil del niño en el BO, ya que no existe un sistema automático que te avise en cuanto una familia solicita un reembolso. Tú le das señales a Atención al Cliente; ellos no te envían actualizaciones.</p>`)}
   `},
   {t:'🚧 7.4 · Qué puedes y qué no puedes hacer', html:`
    <div class="card"><div class="tbl-wrap"><table>

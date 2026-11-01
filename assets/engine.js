@@ -126,9 +126,9 @@ function toggleTheme(){
 function goDashboard(){ renderHome(); showScreen('screen-path'); window.scrollTo(0,0); }
 
 /* ---------- dev mode: reviewers only ----------
-   The unlock button and Shift+D x3 work only when the page is opened with ?dev=1.
-   Turning developer mode off restores the real progress saved before it was turned on,
-   so it can never be used to skip modules. */
+   The 🔓 button and Shift+D x3 work only when the page is opened with ?dev=1
+   (same rule as the Attendance training). Turning developer mode off restores the
+   real progress saved before it was turned on, so it can never be used to skip modules. */
 const DEV_ALLOWED=/[?&]dev=1(&|$)/.test(location.search);
 const DEV_BACKUP=PROG_KEY+'-devbackup';
 function restoreRealProgress(){
@@ -400,7 +400,7 @@ function timeline(steps){
 // Opened without ?dev=1: leave developer mode and go back to the real progress.
 if(isDevMode() && !DEV_ALLOWED) restoreRealProgress();
 if(isDevMode() && window.showDevBadge) window.showDevBadge(true);
-// The developer unlock button is shown only with ?dev=1.
+// The 🔓 developer button is shown only with ?dev=1.
 if(!DEV_ALLOWED) document.querySelectorAll('[onclick="devUnlockAll()"]').forEach(b=>{ b.style.display='none'; });
 MODULES = CONTENT.buildModules();
 { // progress carried over from a language switch (?p=...)

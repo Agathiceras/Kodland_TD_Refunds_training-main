@@ -228,7 +228,7 @@ const CONTENT = {
    <div class="card"><p>Bunu net olarak anlamak önemli, çünkü konuyu ne kadar acil ele aldığını değiştirir.</p>
    <p>Çalışmalarını yapmayan bir çocuk geride kalır. Geride kalan bir çocuk derste kendini kaybolmuş hisseder. Derste kendini kaybolmuş hisseden bir çocuk gelmek istemez olur. Aile, derse gitmek istemeyen bir çocuk görür ve şu sonuca varır: <em>“ilgilenmiyor”</em> ya da <em>“bu kurs ona göre değil.”</em></p></div>
    ${co('co-idea','💡',`<p>Bir veli bu ifadeleri kullandığında, sorunun başlangıcında <strong>teslim edilmemiş üç proje</strong> bulunuyor olabilir. Eksik çalışmalar yalnızca ayrılmaya çoktan karar vermiş bir çocuğun belirtisi değildir — onun bu kararı vermesine yol açan şeyin bir parçasıdır.</p>`)}
-   ${co('co-idea','📌',`<p><strong>Yani: art arda eksik ders içi çalışma ya da ödev, tek başına harekete geçmek için bir nedendir.</strong> Göz kulak olunacak bir şey değil. Sadece kötüleşirse dile getirilecek bir şey değil. <strong>Harekete geç.</strong></p>`)}
+   ${co('co-idea','📌',`<p><strong>Sonuç olarak, ders içi çalışmaların veya ödevlerin art arda eksik bırakılması, tek başına harekete geçmek için yeterli bir nedendir.</strong> Bu durumu yalnızca izlemekle yetinme veya daha da kötüleşmesini bekleme; <strong>harekete geç.</strong></p>`)}
   `},
   {t:'🧩 1.5 · Üç örüntü', html:`
    <div class="card"><p>Bir çocuğun son birkaç dersine geriye dönüp baktığında üç şekilden birini görürsün. Her biri farklı bir anlama gelir ve her biri farklı bir tepki gerektirir.</p></div>
@@ -429,7 +429,7 @@ const CONTENT = {
    <div class="vslot-frame" style="padding:0;overflow:hidden"><iframe src="https://drive.google.com/file/d/1m2m_RRNTf5zMh2-1NmExvEMGZX0DPIaK/preview" width="100%" height="380" style="border:none;display:block" allow="autoplay"></iframe></div></div>
   `},
   {t:'📵 4.3 · Bir çocuk dersi kaçırdığında', html:`
-   <div class="card"><p>Kaydı göndermek bir telafi planı değildir. <strong>Kursun başında kaçırılan iki ders kursun sonu olabilir</strong>, çünkü çocuk herkesin yapabildiği bir şeyi kendisinin yapamadığı bir sınıfa geri döner — hem de grubun önünde.</p></div>
+   <div class="card"><p>Ders kaydını göndermek tek başına bir telafi planı değildir. <strong>Özellikle kursun başında kaçırılan iki ders, çocuğun kurstan ayrılmasına yol açabilir.</strong> Çünkü çocuk, diğer öğrencilerin yapabildiği bir şeyi kendisinin henüz yapamadığı bir gruba geri döner; üstelik bunu diğer öğrencilerin önünde yaşar.</p></div>
    ${timeline([
      {ic:'📅', label:'Aynı gün', items:[
        '<strong>Aileye yaz</strong>, önce sıcaklıkla: <em>“bugün onu çok özledik — her şey yolunda mı?”</em> Her şeyden önce empati.',

@@ -28,7 +28,7 @@ const CONTENT = {
     startCheck:'▶ Começar a verificação do módulo',
     toExam:'▶ Seguir para a prova final',
     doneBack:'✓ Pronto — voltar para a trilha',
-    ixBadge:'📋 Verificação do módulo — 70% para liberar o próximo módulo',
+    ixBadge:'📋 Verificação do módulo — 70% de acerto para liberar o próximo módulo',
     ixItemBadge:'📋 Verificação do módulo — questão {i} de {n}',
     scoreSoFar:'Pontuação até agora: {c} / {t}',
     continue:'Continuar →',
@@ -36,7 +36,7 @@ const CONTENT = {
     resPassed:'Módulo concluído!',
     resFailed:'Ainda não foi desta vez',
     resUnlocked:"Você liberou o próximo módulo.",
-    resNeed:'Você precisa de 70% para liberar o próximo módulo. Revise a seção acima e tente a verificação de novo.',
+    resNeed:'Você precisa de 70% de acerto para liberar o próximo módulo. Revise a seção acima e tente a verificação de novo.',
     resContinue:'Continuar na trilha de aprendizagem',
     resBack:'Voltar para a trilha',
     resReview:'Revisar este módulo',
@@ -74,7 +74,7 @@ const CONTENT = {
   `},
   {t:'💔 Um reembolso é uma criança que para de aprender', html:`
    <div class="card"><p>Por trás de cada pedido de reembolso existe uma criança que estava construindo algo e parou. Uma turma que diminui. Uma família que confiou em nosso trabalho e decidiu que não valia a pena continuar.</p>
-   <p>É disso que trata este treinamento. Não se trata de um número em um dashboard — de uma criança específica, em uma das suas turmas, que está se afastando agora mesmo e não sabe como dizer isso.</p></div>
+   <p>É disso que trata este treinamento. Não se trata de um número em um dashboard — de uma criança específica, em uma das suas turmas, que está se desengajando agora mesmo e não sabe como dizer isso.</p></div>
    <img src="Images/Image_1.png" alt="" style="display:block;width:100%;border-radius:var(--r);margin-bottom:14px;box-shadow:var(--shadow)">
   `},
   {t:'📉 Reembolsos quase nunca acontecem de repente', html:`
@@ -111,7 +111,7 @@ const CONTENT = {
   `},
   {t:'🔀 A ordem importa: primeiro o Team Leader, depois a família', html:`
    <div class="card"><p>Existe uma sequência a seguir, e pular etapas é exatamente o motivo pelo qual mensagens bem-intencionadas acabam criando problemas.</p></div>
-   ${co('co-danger','🚨',`<p><strong>Sempre que a situação envolver algo além do seu próprio ensino</strong> — nível, turma, horário, uma necessidade especial, uma promessa não cumprida, uma aula perdida — <strong>não escreva para a família primeiro.</strong></p>`)}
+   ${co('co-danger','🚨',`<p><strong>Sempre que a situação envolver algo além da sua própria didática</strong> — nível, turma, horário, uma necessidade especial, uma promessa não cumprida, uma aula perdida — <strong>não escreva para a família primeiro.</strong></p>`)}
    ${stepFlow([
      {ic:'👩‍💼', label:'1. Alinhe com seu Team Leader — explique o que você viu, envolva o Atendimento ao Cliente, deixe um comentário no BO'},
      {ic:'🧭', label:'2. Combinem a estratégia — quais opções realmente estão disponíveis para essa criança e quais não estão'},
@@ -127,7 +127,7 @@ const CONTENT = {
    <tr><th>✅ Sempre seu — escreva à vontade, com acolhimento e agilidade</th><th>⏸️ Sempre espera pelo seu Team Leader</th></tr>
    <tr><td>Como está o desempenho da criança, o que fez bem, o que está achando difícil</td><td>Qualquer assunto sobre <strong>níveis, cursos, turmas, horários, formatos ou pacotes</strong></td></tr>
    <tr><td>Que <strong>apoio você</strong> está dando na aula e o que você adaptou</td><td>Qualquer <strong>opção, solução ou próximo passo</strong> para a família escolher</td></tr>
-   <tr><td>Que você percebeu as dificuldades dela e se importa com como ela está se sentindo</td><td>Qualquer <strong>explicação de como algo deu errado</strong>, ou por quê</td></tr>
+   <tr><td>Que você percebeu as dificuldades dela e se importa com como ela está se sentindo</td><td>Qualquer <strong>explicação sobre como ou por que algo falhou</strong></td></tr>
    <tr><td>Perguntar o que ajuda essa criança a aprender melhor</td><td>Qualquer questão relacionada ao <strong>financeiro</strong></td></tr>
    <tr><td>Uma aula perdida e o que precisa ser recuperado</td><td>Qualquer confirmação de que algo <strong>vai</strong> ou <strong>não vai</strong> acontecer</td></tr>
    <tr><td>Que você levou o caso para a sua equipe, em termos gerais, sem detalhes</td><td>Qualquer detalhe sobre <strong>o que você reportou internamente</strong></td></tr>
@@ -161,7 +161,7 @@ const CONTENT = {
      {label:'Totalmente meu', fb:'Correto — perceber isso e agir (uma conversa individual, ajustar sua abordagem) é totalmente seu.'},
      {label:'Meu para adaptar e reportar'},
      {label:'Fora do nosso controle'}
-   ], correctZone:0, fb:'Não exatamente — perceber uma queda nas lições de casa e fazer uma conversa individual está totalmente dentro do seu próprio ensino; não precisa reportar, a menos que isso aponte para um problema maior, como um nível inadequado.'},
+   ], correctZone:0, fb:'Não exatamente — perceber uma queda nas lições de casa e fazer uma conversa individual está totalmente dentro da sua própria didática; não precisa reportar, a menos que isso aponte para um problema maior, como um nível inadequado.'},
    {type:'sort', prompt:'“Ninguém me contou que ele tem uma necessidade educacional especial” —', card:'Ninguém me contou que ele tem uma necessidade educacional especial', zones:[
      {label:'Totalmente meu'},
      {label:'Meu para adaptar e reportar', fb:'Correto — adapte tudo o que puder na aula e reporte para que opções como aulas individuais possam ser avaliadas.'},
@@ -338,7 +338,7 @@ const CONTENT = {
   {t:'✋ 3.4 · Garantindo que todos os alunos tenham oportunidades reais de participação', html:`
    <div class="card"><p>Os alunos retornam porque encontram um ambiente onde se sentem valorizados e pertencentes. A maneira mais rápida de desengajá-los é ignorar suas tentativas de participação.</p></div>
    ${co('co-danger','🚨',`<p><strong>“Distribuir a atenção” não é suficiente.</strong> Todo tutor supõe que já realiza isso. <strong>Torne essa prática mensurável.</strong></p>
-   <ul><li>Deixe a lista de participantes à vista e <strong>marque cada nome quando a criança tiver uma vez de verdade</strong> — não um olhar, uma troca real.</li>
+   <ul><li>Deixe a lista de participantes à vista e <strong>marque cada nome quando a criança tiver uma participação efetiva</strong> — não apenas uma menção, mas uma interação real.</li>
    <li><strong>Na metade da aula, veja quem ainda não tem marcação.</strong> Vá até essas crianças em seguida.</li>
    <li>Use o chat e as reações como um canal de comunicação efetivo, e não como um recurso secundário: <em>“escrevam a ideia de vocês no chat que eu leio todas em voz alta”.</em></li>
    <li><strong>Quem terminar a aula com uma pergunta sem resposta recebe uma resposta por escrito em até 24 horas.</strong></li>
@@ -499,7 +499,7 @@ const CONTENT = {
   `)}
   ${accItem('😴 5.2 · A atividade está excessivamente fácil', `
    <img src="Images/Image_7.png" alt="" style="display:block;width:100%;border-radius:var(--rsm);margin-bottom:14px;box-shadow:var(--shadow)">
-   ${noticeLine(`Um aluno pode terminar a atividade na metade do tempo previsto e perguntar: “É só isso?”. Depois de terminar, pode se distrair ou distrair os outros, ou comentar que já sabe o conteúdo. Outro sinal importante é quando o aluno mostra muita capacidade, mas não faz a lição de casa de forma consistente. Nos números, o tédio pode parecer exatamente desinteresse, por isso é importante olhar além das aparências.`)}
+   ${noticeLine(`Um aluno pode terminar a atividade na metade do tempo previsto e perguntar: “É só isso?”. Depois de terminar, pode se distrair ou distrair os outros, ou comentar que já sabe o conteúdo. Outro sinal importante é quando o aluno mostra muita capacidade, mas não faz a lição de casa de forma consistente. Nos números, o tédio pode se manifestar exatamente como desinteresse, por isso é importante analisar a situação além das aparências.`)}
    ${stepIconBlock('⚡','Adapte — imediatamente', `<ul><li>Um desafio adicional autêntico: a mesma habilidade, uma proposta mais difícil</li><li>O papel de monitor na turma</li><li>Dê opções; evite deixá-lo ocioso</li></ul>`)}
    ${stepIconBlock('🗣️','Alinhe — TL + Avaliação de Tutores no BO, nesta semana', `<p>Diga exatamente: <em>“precisa subir de nível, não é um problema de motivação.”</em> Peça uma aula de avaliação/nivelamento.</p>`)}
    ${stepIconBlock('👪','Família', `<p>Apenas: <em>“está aprendendo muito rápido, estou dando desafios extras, e já levei o assunto para a minha equipe.”</em> Retome o assunto em até 2 aulas.</p>${co('co-ok','✅',`<p>Essa situação geralmente é contornável — mas apenas se for reportada à equipe.</p>`)}`)}
@@ -542,7 +542,7 @@ const CONTENT = {
    ])}</div>
    <div class="card"><h4 style="margin-bottom:10px">🙋 Se você está chegando</h4>${iconGrid([
      {ic:'📖', html:`<strong>Leia o repasse</strong> primeiro.`},
-     {ic:'💬', html:`<strong>Nomeie a mudança</strong>, de forma breve e positiva.`},
+     {ic:'💬', html:`<strong>Mencione a transição</strong> de forma breve e positiva.`},
      {ic:'🏷️', html:`<strong>Memorize todos os nomes</strong> na primeira aula.`},
      {ic:'⏸️', html:`<strong>Não mude mais nada</strong> por 2 aulas.`}
    ])}</div>
@@ -603,7 +603,7 @@ const CONTENT = {
    <tr><td><strong>Presença abaixo da metade</strong>, ou atividades bem abaixo da turma</td><td>Garanta uma oportunidade real de participação e proponha um objetivo alcançável</td><td>Conversa individual em particular com a criança</td><td>Team Leader se passarem mais duas aulas sem mudança</td><td>Mensagem curta e acolhedora — você pode enviar</td><td>Na mesma semana</td></tr>
    <tr><td><strong>Duas ou mais aulas sem nada entregue</strong></td><td>Verifique as atividades em tempo real via compartilhamento de tela; simplifique o objetivo</td><td>Conversa individual; explique bem a próxima lição de casa e acompanhe</td><td>Team Leader se continuar</td><td>Mensagem sobre o progresso — você pode enviar</td><td>Na mesma semana</td></tr>
    <tr><td><strong>Atividade difícil demais</strong></td><td>Etapas menores, objetivo reduzido, adapte a atividade, normalize os erros</td><td>Explicação por escrito do conceito que está faltando</td><td><strong>Team Leader + Avaliação de Tutores no BO</strong> — peça uma aula de avaliação/nivelamento se necessário</td><td>Só o que seu TL liberar. Nunca o nível nem as opções</td><td>Na mesma semana</td></tr>
-   <tr><td><strong>Atividade fácil demais</strong></td><td>Desafio extra de verdade, atividade adaptada para cima, papel de ajudante, nunca sem nada para fazer</td><td>Tenha pronta uma atividade do próximo nível</td><td><strong>Team Leader + Avaliação de Tutores no BO</strong> — peça uma aula de avaliação/nivelamento se necessário</td><td>Só o que seu TL liberar. Nunca o nível nem as opções</td><td>Na mesma semana</td></tr>
+   <tr><td><strong>Atividade fácil demais</strong></td><td>Desafio extra de verdade, eleve o nível de dificuldade, ofereça o papel de monitor, evite deixá-lo ocioso</td><td>Tenha pronta uma atividade do próximo nível</td><td><strong>Team Leader + Avaliação de Tutores no BO</strong> — peça uma aula de avaliação/nivelamento se necessário</td><td>Só o que seu TL liberar. Nunca o nível nem as opções</td><td>Na mesma semana</td></tr>
    <tr><td><strong>Necessidade educacional especial</strong>, registrada ou suspeita</td><td>Blocos mais curtos, estrutura previsível, avisar antes das transições, adaptar as atividades</td><td>Anote o que funciona e o que não funciona</td><td><strong>Team Leader + Avaliação de Tutores no BO.</strong> Pergunte sobre aulas individuais se a diferença for grande</td><td>Perguntar o que ajuda: com você, com cuidado. Formato/turma/aulas individuais: nunca sugeridos por você</td><td>Antes da próxima aula · imediatamente se a diferença for grande demais</td></tr>
    <tr><td><strong>Incompatibilidade do aluno com a idade ou o formato do curso</strong></td><td>Simplifique, demonstre mais, dê mais atenção na aula</td><td>Seja honesto sobre o limite</td><td><strong>Team Leader + Avaliação de Tutores no BO</strong> — diga “enquadramento, não motivação”</td><td>Só se o seu TL pedir</td><td>Na mesma semana</td></tr>
    <tr><td><strong>O aluno não tem oportunidade de participar</strong></td><td>Controle de participações; ajuste sua abordagem; adapte uma atividade para quem precisa</td><td>Respostas por escrito em até 24 h para tudo o que ficou sem resposta</td><td>Team Leader, se não der para resolver na aula</td><td>Ajustes na sua didática: responsabilidade sua. Troca de turma: decisão fora da sua alçada</td><td>Na mesma semana</td></tr>
@@ -613,7 +613,7 @@ const CONTENT = {
    <tr><td><strong>Circunstâncias familiares, questões de saúde ou financeiras</strong></td><td>Demonstre empatia, sem criar expectativas de retorno imediato</td><td>—</td><td>Atendimento ao Cliente, por meio do seu Team Leader · não insista</td><td>Uma mensagem de acolhimento, evitando perguntas investigativas</td><td>Assim que você souber</td></tr>
    </table></div></div>
    ${co('co-idea','💡',`<p>Para qualquer urgência, a maioria das regiões também tem um canal direto no Slack entre Team Leader e Atendimento ao Cliente, como alternativa mais rápida ao BO — a nomenclatura varia por região, portanto, confirme com o seu Team Leader o canal correto.</p>`)}
-   ${co('co-idea','🎓',`<p><strong>Uma coluna que este mapa não mostra: o seu Mentor Regional.</strong> Tudo o que está na coluna “a quem avisar” acima tem a ver com as <em>condições combinadas</em> — nível, turma, horário, pacote — e sempre vai para o seu Team Leader e o Atendimento ao Cliente. Quando a dúvida for <em>sobre aprimoramento didático</em>, é ao seu Mentor Regional que você deve recorrer, junto com o caminho acima — não em substituição a ele.</p>`)}
+   ${co('co-idea','🎓',`<p><strong>Uma coluna que este mapa não mostra: o seu Mentor Regional.</strong> Tudo o que está na coluna “a quem avisar” acima refere-se aos <em>termos contratuais</em> — nível, turma, horário, pacote — e sempre vai para o seu Team Leader e o Atendimento ao Cliente. Quando a dúvida for <em>sobre aprimoramento didático</em>, é ao seu Mentor Regional que você deve recorrer, junto com o caminho acima — não em substituição a ele.</p>`)}
   `},
   {t:'⚖️ 6.3 · As cinco regras', html:`
    <div class="rule-row">
@@ -730,7 +730,7 @@ const CONTENT = {
    ${numlist([
      'Notei algum declínio no desempenho durante a aula ou na entrega de lições de casa nesta semana, mesmo entre os alunos com frequência regular?',
      'Há algum aluno na turma com ausência total de entregas que tenha passado despercebido?',
-     'Todos os alunos tiveram uma participação efetiva na minha última aula? Tenho certeza ou estou supondo?',
+     'Todos os alunos tiveram uma participação efetiva na minha última aula? Tenho comprovação disso ou é apenas uma suposição?',
      'Observei algum sinal de alerta que ainda não reportei à equipe?',
      'Reportei alguma situação que deixei de acompanhar posteriormente?'
    ])}

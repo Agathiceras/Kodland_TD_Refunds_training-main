@@ -192,7 +192,7 @@ const CONTENT = {
    ${iconGrid([
      {ic:'📷', html:`<strong>Kamera dimatikan</strong> dan tetap mati, padahal sebelumnya menyala. Ini tanda awal menarik diri yang paling umum — anak-anak yang akhirnya pergi hanya menyalakan kamera sekitar <strong>separuh</strong> waktu dibandingkan teman-teman sekelompoknya.`},
      {ic:'🎤', html:`<strong>Mikrofon tidak lagi digunakan</strong> sama sekali — kira-kira <strong>sepertiga</strong> waktu penggunaan mikrofon teman-temannya. Anak yang berhenti berbicara biasanya sudah berhenti merasa menjadi bagian dari grup.`},
-     {ic:'💬', html:`<strong>Jawaban satu kata</strong>, padahal sebelumnya berupa kalimat. Jika ini sebuah perubahan, itu bukan rasa malu — perubahan adalah sinyal.`},
+     {ic:'💬', html:`<strong>Jawaban Singkat</strong>, padahal sebelumnya berupa kalimat. Jika ini sebuah perubahan, itu bukan rasa malu — perubahan adalah sinyal.`},
      {ic:'🖥️', html:`<strong>Berhenti membagikan layarnya</strong> saat kerja mandiri. Sering kali artinya “aku nggak mau kamu lihat aku lagi bingung” atau “aku belum mulai.”`},
      {ic:'📝', html:`<strong>Memulai tugas kelas tetapi tidak pernah menyelesaikannya</strong> — Sinyal paling jelas dari siswa yang tertinggal saat pelajaran`},
      {ic:'✋', html:`<strong>Mengangkat tangan dan tidak dipanggil</strong> — lalu berhenti mengangkatnya. <strong>Yang ini tanggung jawab kita.</strong>`},

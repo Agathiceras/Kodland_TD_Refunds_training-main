@@ -126,8 +126,8 @@ const CONTENT = {
    <div class="card"><div class="tbl-wrap"><table>
    <tr><th>✅ Di tua competenza — comunica apertamente, con empatia e tempestività</th><th>⏸️ Richiede sempre l’intervento del Team Leader</th></tr>
    <tr><td>Come se la sta cavando il bambino, cosa ha fatto bene, cosa trova difficile</td><td>Qualsiasi cosa su <strong>livelli, corsi, gruppi, orari, formati o pacchetti</strong></td></tr>
-   <tr><td>Quale <strong>supporto stai dando tu</strong> durante la lezione e cosa hai adattato</td><td>Qualsiasi <strong>opzione, soluzione o alternativa proposta</strong> alla famiglia</td></tr>
-   <tr><td>Far sapere che hai notato le sue difficoltà e che hai a cuore il suo benessere</td><td>Qualsiasi <strong>spiegazione di come qualcosa sia andato storto</strong>, o del perché</td></tr>
+   <tr><td>Il tipo di <strong>supporto che stai offrendo</strong> durante la lezione e le strategie che hai adattato</td><td>Qualsiasi <strong>opzione, soluzione o alternativa proposta</strong> alla famiglia</td></tr>
+   <tr><td>Far sapere che hai notato le sue difficoltà e che hai a cuore il suo benessere</td><td>Qualsiasi <strong>spiegazione sulle cause di un imprevisto o di un problema</strong></td></tr>
    <tr><td>Chiedere cosa aiuta questo bambino a imparare meglio</td><td>Qualsiasi questione di natura <strong>economica</strong></td></tr>
    <tr><td>Informazioni su una lezione persa e sul relativo recupero</td><td>Qualsiasi garanzia o promessa <strong>su</strong> eventi <strong>futuri</strong></td></tr>
    <tr><td>Comunicare in termini generali di aver segnalato il caso al team, senza scendere nei dettagli</td><td>Qualsiasi dettaglio su <strong>ciò che hai segnalato internamente</strong></td></tr>
@@ -197,7 +197,7 @@ const CONTENT = {
      {ic:'📝', html:`<strong>Inizia le attività in classe ma non le porta mai</strong> a termine — è il segno più evidente, durante la lezione, che sta rimanendo indietro.`},
      {ic:'✋', html:`<strong>Alza la mano e non viene interpellato</strong> — finché smette di farlo. <strong>Questa è una nostra responsabilità.</strong>`},
      {ic:'⏰', html:`<strong>Arriva in ritardo, esce in anticipo o si connette e disconnette di continuo.</strong> La presenza fisica c’è, ma l’impegno no.`},
-     {ic:'😞', html:`<strong>Si zittisce o si frustra in fretta</strong> dopo un errore, soprattutto se è un comportamento nuovo.`},
+     {ic:'😞', html:`<strong>Si ammutolisce o si frustra subito</strong> dopo un errore, soprattutto se è una reazione insolita per lui.`},
      {ic:'⚡', html:`<strong>Finisce gli esercizi nella metà del tempo e poi disturba.</strong> Anche questo è un problema di livello: la noia si manifesta proprio come il disinteresse.`},
      {ic:'🔁', html:`<strong>Fa la stessa domanda di base più e più volte.</strong> Probabilmente il livello non è quello giusto — vedi il Modulo 5.`}
    ])}
@@ -209,8 +209,8 @@ const CONTENT = {
   {t:'📅 1.2 · Cosa notare tra una lezione e l’altra', html:`
    <div class="card"><p>Tra una lezione e l’altra hai qualcosa che la lezione dal vivo non può darti: la traccia di quanto il bambino stia davvero facendo il lavoro. Sono due cose distinte, ed <strong>entrambe contano.</strong></p></div>
    ${iconGrid([
-     {ic:'🏫', html:`<strong>Lavoro in classe (In classe)</strong> — ciò che il bambino completa durante la lezione stessa. Ti dice se riesce a seguire <strong>quando ci sei tu</strong>. Quando cala, il problema è la difficoltà o il coinvolgimento in classe.`},
-     {ic:'🏠', html:`<strong>Compiti (A casa)</strong> — ciò che il bambino completa da solo. Ti dice se il corso conta ancora <strong>quando tu non ci sei</strong>, e se la famiglia lo sostiene. È il segnale più difficile e più sincero.`}
+     {ic:'🏫', html:`<strong>Attività in classe</strong> — ciò che il bambino completa durante la lezione. Ti dice se riesce a seguire <strong>quando ci sei tu</strong>. Quando cala, il problema è la difficoltà o il coinvolgimento in classe.`},
+     {ic:'🏠', html:`<strong>Compiti a casa</strong> — ciò che il bambino completa in autonomia. Ti indica se il corso ha importanza anche <strong>fuori dalla lezione</strong>, e se la famiglia lo sostiene. È il segnale più difficile da interpretare, ma anche il più onesto.`}
    ])}
    ${co('co-danger','🚨',`<p><strong>Tieni d’occhio entrambi. Agisci su ciascuno dei due.</strong></p><p>Un bambino può partecipare attivamente in classe ma non consegnare mai i compiti — è un problema di motivazione e di sostegno familiare. Un bambino può fare i compiti ma avere difficoltà nel lavoro in classe — di solito è un problema di difficoltà o di distrazione durante la lezione. Ciascuno dei due, da solo, basta per agire. <strong>Non aspettare che vadano male entrambi.</strong></p>`)}
    ${bigStat('47%',`Il 47% dei bambini per i quali viene richiesto un rimborso <strong>frequenta meno della metà</strong> delle lezioni. La frequenza non è un pro forma: è il segnale più evidente di quanto il corso sia ancora importante per la famiglia.`)}
@@ -219,11 +219,11 @@ const CONTENT = {
   {t:'🔎 1.3 · L’errore che fanno quasi tutti', html:`
    <div class="card"><p>La maggior parte dei tutor va alla ricerca di un <strong>calo</strong> prestazionale, un momento in cui le cose iniziano a peggiorare. Questo approccio fa sfuggire la maggior parte dei casi.</p></div>
    ${co('co-danger','🚨',`<p><strong>Non cercare solo un peggioramento. Fai attenzione anche all’assenza totale di partecipazione.</strong></p>`)}
-   ${bigStat('58.6%',`Dei casi di rimborso aveva compiti <strong>piatti, non in calo</strong> — il bambino aveva già smesso, o non aveva mai davvero iniziato. Non c’era nessun declino da notare.`)}
+   ${bigStat('58.6%',`Il 58,6% dei casi di rimborso presentava una situazione <strong>«piatta»</strong> nei compiti, senza cali evidenti: il bambino aveva già smesso di farli, o non aveva mai davvero iniziato. Non c’era quindi nessun declino da poter notare.`)}
    ${bigStat('56.9%',`Il 56,9% dei casi presentava un calo nella partecipazione <strong>in classe</strong> — per questo, tra i due, è spesso il primo segnale a manifestarsi.`)}
    <p style="font-size:11.5px;color:var(--text-muted)">Basato su andamenti storici di diversi gruppi; le cifre esatte possono variare da regione a regione.</p>
   `},
-  {t:'💔 1.4 · Perché non fare i compiti può prevedere un rimborso', html:`
+  {t:'💔 1.4 · Perché non fare i compiti preannuncia un rimborso', html:`
    <img src="Images/Image_6.png" alt="" style="display:block;width:100%;border-radius:var(--r);margin-bottom:14px;box-shadow:var(--shadow)">
    <div class="card"><p>Vale la pena chiarirlo, perché cambia l’urgenza con cui lo affronti.</p>
    <p>Un bambino che non fa il lavoro resta indietro. Un bambino che è rimasto indietro si sente perso durante la lezione. Un bambino che si sente perso durante la lezione smette di voler venire. La famiglia vede un bambino che non vuole andare a lezione e conclude: <em>«non gli interessa»</em> oppure <em>«questo corso non fa per lui».</em></p></div>
@@ -233,9 +233,9 @@ const CONTENT = {
   {t:'🧩 1.5 · I tre schemi', html:`
    <div class="card"><p>Quando ripercorri le ultime lezioni di un bambino, vedrai una di tre forme. Ognuna significa qualcosa di diverso e ognuna richiede una risposta diversa.</p></div>
    ${patternCards([
-     {ic:'🐌', title:'La discesa lenta', desc:'Presenza e lavoro calano piano piano nel corso di diverse lezioni; mancano sempre più cose; videocamera spenta', note:'Il classico allontanamento. <strong>È quello che puoi invertire</strong> — prima ti muovi, più è probabile riuscirci. → Moduli 3 e 4'},
-     {ic:'🧱', title:'Lo stop improvviso', desc:'Normale, normale, normale — poi più niente', note:'È successo qualcosa. Un conflitto di orari, un episodio, qualcosa a casa. <strong>Chiedi. Non dare nulla per scontato.</strong> → Modulo 4'},
-     {ic:'✅', title:'Coinvolto, ma se ne va lo stesso', desc:'Frequenta, partecipa, fa il lavoro — eppure la famiglia chiede di interrompere', note:'<strong>La causa non è il coinvolgimento, e non sei tu.</strong> Più motivazione non risolverà nulla. <strong>Trova il vero motivo e indirizzalo in fretta.</strong> → Moduli 5 e 6'}
+     {ic:'🐌', title:'Il declino graduale', desc:'Frequenza e impegno calano lezione dopo lezione; le consegne mancano sempre più spesso; la videocamera resta spenta', note:'È il classico schema di allontanamento. <strong>Ed è anche quello reversibile</strong>: prima intervieni, più probabilità hai di recuperare l’allievo. → Moduli 3 e 4'},
+     {ic:'🧱', title:'L’interruzione improvvisa', desc:'Tutto normale — poi il vuoto totale', note:'È successo qualcosa: un imprevisto con gli orari, un episodio specifico, un problema a casa. <strong>Indaga. Non dare nulla per scontato.</strong> → Modulo 4'},
+     {ic:'✅', title:'L’abbandono inaspettato', desc:'Frequenta, partecipa, fa i compiti — eppure la famiglia chiede il ritiro', note:'<strong>La causa non è la mancanza di coinvolgimento, e non dipende da te.</strong> Aumentare la motivazione non servirà a nulla. <strong>Individua il vero motivo e gestiscilo rapidamente.</strong> → Moduli 5 e 6'}
    ])}
    <div class="vslot"><div class="vslot-top"><div class="vslot-ic">🎬</div><div><div class="vslot-title">Lo studente che non si è mai presentato</div></div></div>
    <div class="vslot-frame" style="padding:0;overflow:hidden"><iframe src="https://drive.google.com/file/d/1RfFI5FTMg3DBHEiJtoG9DpJyjVoHFv74/preview" width="100%" height="380" style="border:none;display:block" allow="autoplay"></iframe></div>
@@ -247,20 +247,20 @@ const CONTENT = {
      {ic:'📉', html:`Il bambino frequenta <strong>meno della metà</strong> delle lezioni`},
      {ic:'📊', html:`Lavoro in classe o compiti sono <strong>molto al di sotto della media del gruppo</strong> — come regola pratica, 15 punti o più`},
      {ic:'🤔', html:`La frequenza è irregolare — lo studente non è del tutto assente, ma non è costante — <strong>e</strong> si verifica anche una delle condizioni precedenti`},
-     {ic:'0️⃣', html:`<strong>Due o più lezioni di fila</strong> senza nulla di consegnato`}
+     {ic:'0️⃣', html:`<strong>Due o più lezioni consecutive</strong> senza alcuna consegna`}
    ])}
    ${co('co-danger','🚨',`<p><strong>Inoltre, intervieni immediatamente, a prescindere dalle statistiche, se:</strong> il bambino ha smesso di parlare o di farsi vedere in video; ha provato a partecipare ma non sei riuscito a dargli spazio; ha espresso un disagio; hai un brutto presentimento. <strong>Anche il tuo istinto è un segnale d’allarme valido.</strong></p>`)}
   `}
  ],
  ix:{
-  title:'Discesa lenta, stop improvviso o coinvolto ma se ne va lo stesso?',
+  title:'Declino graduale, interruzione improvvisa o abbandono inaspettato?',
   instr:'Per ogni storico dei progressi anonimizzato, scegli di quale schema si tratta — poi scegli la prima mossa giusta. 70% per sbloccare il Modulo 2.',
   items:[
-   {type:'choice', prompt:'Presenza e lavoro in classe di un bambino sono calati silenziosamente nelle ultime cinque lezioni, un po’ di più ogni volta, e la videocamera è rimasta spenta nelle ultime due.', opts:['La discesa lenta','Lo stop improvviso','Coinvolto, ma se ne va lo stesso'], correct:0, fb:'È la discesa lenta — il classico allontanamento, e quello che con più probabilità puoi invertire, quanto prima ti muovi.'},
-   {type:'choice', prompt:'Nella scorsa lezione un bambino era del tutto normale — presenza completa, videocamera accesa, compiti fatti — e questa settimana semplicemente non si è presentato, senza alcun messaggio.', opts:['La discesa lenta','Lo stop improvviso','Coinvolto, ma se ne va lo stesso'], correct:1, fb:'È lo stop improvviso. È successo qualcosa — chiedi, non dare nulla per scontato.'},
-   {type:'choice', prompt:'Un bambino ha frequentato tutte le lezioni, partecipa e consegna tutto il lavoro — eppure la famiglia ha appena chiesto di disdire.', opts:['La discesa lenta','Lo stop improvviso','Coinvolto, ma se ne va lo stesso'], correct:2, fb:'Coinvolto, ma se ne va lo stesso. La causa non è il coinvolgimento — è qualcosa come il livello, le aspettative, l’orario o le circostanze. Più motivazione non risolverà nulla; trova il vero motivo e indirizzalo.'},
-   {type:'choice', prompt:'Per «la discesa lenta», qual è la prima mossa giusta?', opts:['Aspettare ancora qualche lezione per essere certi che sia davvero uno schema','Agire subito — è proprio quella che si inverte più facilmente quanto prima ti muovi','Considerarla temporanea e ricontrollare il mese prossimo'], correct:1, fb:'Le discese lente sono esattamente ciò che un’azione tempestiva può invertire. Aspettare significa sprecare il vantaggio che hai.'},
-   {type:'choice', prompt:'Per «lo stop improvviso», qual è la prima mossa giusta?', opts:['Pensare che non sia niente e aspettare che torni da solo','Chiedere — scoprire cosa è successo davvero, invece di tirare a indovinare','Dire subito alla famiglia che il figlio sta restando indietro'], correct:1, fb:'Uno stop improvviso ha una causa precisa. Scopri qual è prima di decidere cosa fare.'},
+   {type:'choice', prompt:'Presenza e lavoro in classe di un bambino sono calati silenziosamente nelle ultime cinque lezioni, un po’ di più ogni volta, e la videocamera è rimasta spenta nelle ultime due.', opts:['Il declino graduale','L’interruzione improvvisa','L’abbandono inaspettato'], correct:0, fb:'È il declino graduale — il classico allontanamento, e quello che con più probabilità puoi invertire, quanto prima ti muovi.'},
+   {type:'choice', prompt:'Nella scorsa lezione un bambino era del tutto normale — presenza completa, videocamera accesa, compiti fatti — e questa settimana semplicemente non si è presentato, senza alcun messaggio.', opts:['Il declino graduale','L’interruzione improvvisa','L’abbandono inaspettato'], correct:1, fb:'È l’interruzione improvvisa. È successo qualcosa — chiedi, non dare nulla per scontato.'},
+   {type:'choice', prompt:'Un bambino ha frequentato tutte le lezioni, partecipa e consegna tutto il lavoro — eppure la famiglia ha appena chiesto di disdire.', opts:['Il declino graduale','L’interruzione improvvisa','L’abbandono inaspettato'], correct:2, fb:'L’abbandono inaspettato. La causa non è il coinvolgimento — è qualcosa come il livello, le aspettative, l’orario o le circostanze. Più motivazione non risolverà nulla; trova il vero motivo e indirizzalo.'},
+   {type:'choice', prompt:'Per «il declino graduale», qual è la prima mossa giusta?', opts:['Aspettare ancora qualche lezione per essere certi che sia davvero uno schema','Agire subito — è proprio quella che si inverte più facilmente quanto prima ti muovi','Considerarla temporanea e ricontrollare il mese prossimo'], correct:1, fb:'Le discese lente sono esattamente ciò che un’azione tempestiva può invertire. Aspettare significa sprecare il vantaggio che hai.'},
+   {type:'choice', prompt:'Per «l’interruzione improvvisa», qual è la prima mossa giusta?', opts:['Pensare che non sia niente e aspettare che torni da solo','Chiedere — scoprire cosa è successo davvero, invece di tirare a indovinare','Dire subito alla famiglia che il figlio sta restando indietro'], correct:1, fb:'Un’interruzione improvvisa ha una causa precisa. Scopri qual è prima di decidere cosa fare.'},
    {type:'choice', prompt:'Per «coinvolto, ma se ne va lo stesso», qual è la prima mossa giusta?', opts:['Dare al bambino più lodi e incoraggiamenti per cercare di mantenerlo motivato','Scoprire qual è il vero motivo — livello, aspettative, orario, circostanze — e indirizzarlo in fretta','Concludere che non si può fare nulla, visto che il bambino andava già bene'], correct:1, fb:'Più motivazione non può risolvere una causa che non ha mai avuto a che fare con la motivazione. Scopri qual è davvero e falla arrivare in fretta alla persona giusta.'}
   ]
  }
@@ -286,11 +286,11 @@ const CONTENT = {
    <div class="sim-embed"><div class="sim-embed-inner"><span class="sim-embed-tag">🖥️ BO — Progressi</span><iframe src="Simulacion_BO_M2_Progress_IT.html" title="BO — Progressi" loading="lazy"></iframe></div></div>
    ${co('co-danger','🚨',`<p>Guarda cosa ti dice la schermata di questo studente: punteggi alti e verdi in <strong>In classe</strong> — ma ogni singola cella di <strong>A casa</strong> è arancione, «non consegnato». <strong>Stesso studente, stesse lezioni, andamento opposto.</strong> Partecipa finché è sotto la tua supervisione, ma il corso perde importanza non appena la lezione finisce.</p>`)}
    <div class="card"><h4>Come interpretarla in meno di un minuto</h4>
-   <ol><li><strong>Cerca le serie di zeri.</strong> <strong>Due di fila bastano per agire.</strong> Una serie consecutiva è l’elemento più forte di questa schermata — molto più informativa di qualsiasi singola cella.</li>
-   <li><strong>Confronta le due schede dello stesso bambino.</strong> In classe alto, A casa vuoto → è con te durante la lezione, ma a casa il corso ha smesso di contare. In classe basso, A casa discreto → qualcosa nella lezione non funziona: difficoltà, ritmo o attenzione.</li>
-   <li><strong>Confronta il bambino con il resto del gruppo.</strong> Gli stessi numeri significano cose diverse a seconda che tutti siano a 30/50 o solo questo bambino.</li>
-   <li><strong>Guarda dove inizia la serie.</strong> Da quale lezione è partita? Torna a ciò che è successo lì — di solito la risposta è lì.</li>
-   <li><strong>Controlla anche la presenza.</strong> Quella che vedi qui è la presenza registrata nel Back Office, non la presenza effettiva durante la lezione — leggila come «è venuto?», non come «quanto era coinvolto?».</li></ol></div>
+   <ol><li><strong>Cerca le serie di zeri.</strong> <strong>Due zeri di fila sono sufficienti per intervenire.</strong> Una sequenza consecutiva è l’indicatore più forte in questa schermata, molto più rilevante di un singolo dato isolato.</li>
+   <li><strong>Confronta i due parametri dello stesso bambino.</strong> «In classe» alto, «A casa» vuoto → è presente durante la lezione, ma a casa il corso non ha più priorità. «In classe» basso, «A casa» discreto → qualcosa non funziona durante la lezione: potrebbe essere un problema di difficoltà, di ritmo o di calo dell’attenzione.</li>
+   <li><strong>Confronta l’allievo con il resto della classe.</strong> Gli stessi numeri assumono significati diversi se l’intero gruppo è a 30/50 o se lo è solo quel singolo bambino.</li>
+   <li><strong>Individua l’inizio della serie negativa.</strong> Da quale lezione è partita? Ripensa a cosa è successo in quell’occasione: di solito la risposta si trova lì.</li>
+   <li><strong>Verifica anche le presenze.</strong> Quella che vedi qui è la presenza registrata nel Back Office, non la partecipazione effettiva durante la lezione: leggila come un semplice «c’era?», non come «era coinvolto?».</li></ol></div>
    ${co('co-danger','🚨',`<p><strong>Esegui questo check una volta a settimana per tutto il gruppo, non solo per gli allievi che ti preoccupano.</strong> L’obiettivo del controllo è proprio far emergere ciò di cui <em>non</em> ti sei ancora accorto.</p>`)}
    ${co('co-idea','🧭',`<p><strong>Insegni in un corso in cui i compiti o le attività in classe si svolgono fuori dalla piattaforma?</strong> In questo caso la schermata Progressi non ti sarà d’aiuto: mancherà il tracciamento automatico, ma non per questo deve mancare l’informazione. Rendi il controllo proattivo anziché automatico: chiedi ai bambini di mostrare il proprio lavoro condividendo lo schermo, fai verifiche frequenti durante le attività individuali, assegna i compiti a voce in modo chiaro e nominali uno per uno alla lezione successiva. I segnali e le soglie d’allarme restano gli stessi, spetta solo a te individuarli attivamente.</p>`)}
   `}
@@ -330,7 +330,7 @@ const CONTENT = {
   {t:'💬 3.3 · Un feedback che motiva invece di limitarsi a correggere', html:`
    <div class="card"><p>Un complimento generico e ripetitivo — <em>«bravo», «bello»</em> — perde efficacia rapidamente e trasmette, implicitamente, il messaggio opposto: che non stai prestando vera attenzione al lavoro dell’allievo.</p></div>
    ${co('co-idea','🔁',`<p><strong>Evidenzia → Chiedi → Attiva</strong></p>
-   <ol><li><strong>Evidenzia</strong> qualcosa di specifico che il bambino ha <em>deciso</em> di fare, e di’ perché funziona.</li>
+   <ol><li><strong>Evidenzia</strong> una scelta specifica fatta dal bambino e spiegagli perché funziona.</li>
    <li><strong>Fagli una</strong> domanda al riguardo con sincera curiosità, trattandolo come il vero esperto del suo progetto.</li>
    <li><strong>Attiva</strong> offrendo una scelta vera su cosa fare dopo.</li></ol>
    <p>Invece di dire solo <em>«Ottimo lavoro!»</em> → prova con <em>«Mi è piaciuto tantissimo che tu abbia fatto saltare il personaggio proprio lì: ci avevi pensato fin dall’inizio o ti è venuto in mente mentre creavi la scena? Vuoi inventare una storia per questo personaggio, o secondo te va bene così?»</em></p>`)}
@@ -421,7 +421,7 @@ const CONTENT = {
      {ic:'🚧', html:`<strong>Indaga sulle difficoltà, non sull’atteggiamento.</strong> <em>«Cosa ti ha bloccato?»</em> — non <em>«perché non ti impegni?»</em> La prima spinge ad aprirsi, la seconda a mettersi sulla difensiva.`},
      {ic:'🤫', html:`<strong>Mai di fronte alla classe.</strong> Un messaggio privato, la chat, o l’ultimo minuto della lezione a tu per tu.`}
    ])}
-   ${co('co-idea','💡',`<p>Poi <strong>ricontrolla due lezioni dopo</strong>, qualunque cosa sia successa. Un colloquio senza seguito insegna al bambino che te ne sei accorto, ma che in fondo non ti importava.</p>`)}
+   ${co('co-idea','💡',`<p><strong>Verifica di nuovo la situazione a distanza di due lezioni</strong>, a prescindere da come sono andate le cose. Un colloquio senza follow-up trasmette al bambino questo messaggio: te ne sei accorto, ma in fondo non ti interessava davvero.</p>`)}
    <div class="card"><p>Uno dei modi per recuperare uno studente demotivato è la correzione dei compiti — e il <strong>modo</strong> in cui la facciamo. Nei due video qui sotto, guarda due casi molto diversi: uno in cui il tutor ignora che uno studente non ha fatto i compiti, e uno in cui il tutor lo coinvolge di nuovo, in modo dinamico, facendolo sentire parte del gruppo.</p></div>
    <div class="vslot"><div class="vslot-top"><div class="vslot-ic">🎬</div><div><div class="vslot-title">Il tutor che non motiva</div></div></div>
    <div class="vslot-frame" style="padding:0;overflow:hidden"><iframe src="https://drive.google.com/file/d/1zwbSiLXBj9mcqhKsFKNJriwSppbcEY5B/preview" width="100%" height="380" style="border:none;display:block" allow="autoplay"></iframe></div></div>
@@ -439,7 +439,7 @@ const CONTENT = {
        '<strong>Cinque minuti a tu per tu</strong>, oppure una breve spiegazione scritta dell’unico concetto chiave che gli serve per rimettersi in pari: un singolo concetto, non l’intera lezione.'
      ]},
      {ic:'🏫', label:'Nella lezione successiva', items:[
-       '<strong>Dagli presto un successo facile e visibile</strong>, così rientra sentendosi capace e non indietro.',
+       '<strong>Fagli ottenere subito un piccolo successo evidente</strong>, così che possa rientrare sentendosi capace e non indietro rispetto agli altri.',
        '<strong>Mostragli che hai notato la sua assenza</strong> — in breve e con calore. Fargli capire che la sua assenza è stata notata è esattamente lo scopo.'
      ]},
      {ic:'🚩', label:'Se ha saltato due o più lezioni', items:[
@@ -509,7 +509,7 @@ const CONTENT = {
    <img src="Images/Image_8.png" alt="" style="display:block;width:100%;border-radius:var(--rsm);margin-bottom:14px;box-shadow:var(--shadow)">
    <div class="card"><p>Arrivano bambini con autismo, ADHD, dislessia, bisogni sensoriali, ansia — e a volte con plusdotazione, che è anch’essa un bisogno educativo speciale e appare molto diversa dalla semplice noia. Può essere scritto nel profilo, essere stato menzionato una volta dalla famiglia o non essere mai stato esplicitato chiaramente. Spesso le famiglie danno prima un’altra spiegazione — <em>«ha perso interesse»</em>, <em>«non fa per lui»</em> — e il vero motivo emerge solo quando qualcuno fa le domande giuste.</p></div>
    ${noticeLine(`Una nota nel profilo (Modulo 2.1) · sovraccarico sensoriale · concentrazione che cala presto · reazioni forti a piccoli errori · disagio di fronte ai cambiamenti · lettura/scrittura lenta · grandi capacità con una motivazione instabile.`)}
-   ${stepIconBlock('⚡','Adatta — è qui che sta la maggior parte del lavoro, ed è tutto tuo', `<ul><li>Unità più brevi, struttura prevedibile, <strong>preavviso a ogni passaggio</strong></li><li>Istruzioni scritte + orali; videocamera facoltativa</li><li>Adatta l’attività stessa; proteggi la routine sopra ogni cosa</li><li>Il tuo <strong>Mentor Regionale</strong> può aiutarti a costruire un piano per questo bambino in particolare</li></ul>${co('co-danger','🚨',`<p>Prima impegnati davvero. Ma se il divario resta troppo grande, <strong>segnalalo subito ai referenti competenti (escalation)</strong> — non è un fallimento.</p>`)}`)}
+   ${stepIconBlock('⚡','Adatta — è qui che si concentra la maggior parte del lavoro, ed è interamente di tua competenza', `<ul><li>Unità più brevi, struttura prevedibile, <strong>preavviso a ogni passaggio</strong></li><li>Istruzioni scritte + orali; videocamera facoltativa</li><li>Adatta l’attività stessa; proteggi la routine sopra ogni cosa</li><li>Il tuo <strong>Mentor Regionale</strong> può aiutarti a costruire un piano per questo bambino in particolare</li></ul>${co('co-danger','🚨',`<p>Prima impegnati davvero. Ma se il divario resta troppo grande, <strong>segnalalo subito ai referenti competenti (escalation)</strong> — non è un fallimento.</p>`)}`)}
    ${stepIconBlock('🗣️','Allineati — TL subito + Valutazione Tutor nel BO', `<p>Se le lezioni individuali o un tutor esperto di bisogni educativi speciali potessero aiutare, <strong>suggeriscilo internamente, ma non prometterlo alla famiglia.</strong></p>`)}
    ${stepIconBlock('👪','Famiglia — con delicatezza', `<p>Controlla prima il profilo (2.1); se non c’è nulla, chiedi con garbo. Scrivi ciò che scopri nei Commenti del BO.</p>${co('co-danger','⛔',`<p>Mai: <em>«non riesce a stare al passo»</em> o qualsiasi frase che suoni come una diagnosi. Ricontrolla ogni 2 lezioni, e sempre dopo ogni cambiamento.</p>`)}`)}
    ${co('co-idea','🔴',`<p><strong>Hai già ricevuto la richiesta di rimborso per questo motivo?</strong> Vai direttamente al Modulo 7 — il tentativo di recupero inizia nella tua prossima lezione con questo bambino.</p>`)}
@@ -613,7 +613,7 @@ const CONTENT = {
    <tr><td><strong>Situazione familiare, salute, denaro</strong></td><td>Sii gentile, non aspettarti nulla</td><td>—</td><td>Servizio Clienti, tramite il tuo Team Leader · non insistere</td><td>Una frase calorosa, nessuna domanda di approfondimento</td><td>Appena lo vieni a sapere</td></tr>
    </table></div></div>
    ${co('co-idea','💡',`<p>Per qualsiasi urgenza, la maggior parte delle regioni ha anche un canale Slack diretto tra Team Leader e Servizio Clienti, come alternativa più rapida al BO — il nome cambia da regione a regione, quindi chiedi al tuo Team Leader qual è il tuo.</p>`)}
-   ${co('co-idea','🎓',`<p><strong>Un riferimento che questa tabella non include: il tuo Mentor Regionale.</strong> Tutto ciò che vedi nella colonna «a chi lo dici» riguarda le questioni organizzative e <em>contrattuali</em> — livello, gruppo, orario, pacchetto — e va sempre al tuo Team Leader e al Servizio Clienti. Quando invece la domanda è <em>come posso insegnarlo meglio</em>, è al tuo Mentor Regionale che devi chiedere, insieme al percorso indicato sopra — non al suo posto.</p>`)}
+   ${co('co-idea','🎓',`<p><strong>Un riferimento che questa tabella non include: il tuo Mentor Regionale.</strong> Tutto ciò che vedi nella colonna «a chi lo dici» riguarda le questioni organizzative e <em>contrattuali</em> — livello, gruppo, orario, pacchetto — e va sempre al tuo Team Leader e al Servizio Clienti. Quando invece il dubbio è «<em>come posso spiegare meglio questo argomento?</em>», è al tuo Mentor Regionale che devi chiedere, insieme al percorso indicato sopra — non al suo posto.</p>`)}
   `},
   {t:'⚖️ 6.3 · Le cinque regole', html:`
    <div class="rule-row">
@@ -674,7 +674,7 @@ const CONTENT = {
    <tr><td>Se si presenta un’occasione naturale <strong>prima</strong> di quell’avviso, proporre qualcosa di concreto — una lezione extra, una verifica del livello, consigliare un corso diverso</td><td>Confermare o discutere qualsiasi importo</td></tr>
    <tr><td>Dire al genitore che il Servizio Clienti lo aiuterà</td><td>Dire o lasciar intendere qualsiasi altra cosa sulla richiesta in sé</td></tr>
    </table></div></div>
-   ${co('co-ok','✅',`<p><strong>Il messaggio che si può sempre dire:</strong> <em>«Il Servizio Clienti vi aiuterà con questo.»</em> Niente di più — lì finisce la tua parte, ed è una conversazione per la quale non hai le informazioni.</p>`)}
+   ${co('co-ok','✅',`<p><strong>Il messaggio da usare sempre:</strong> <em>«Il Servizio Clienti vi aiuterà con questo.»</em> Niente di più — lì finisce il tuo compito, ed è una conversazione per la quale non hai le informazioni.</p>`)}
   `},
   {t:'🌱 7.5 · Le 2–4 lezioni dopo il recupero', html:`
    <div class="card"><p>Che la richiesta venga ritirata, che il bambino resti nel tuo gruppo, passi a un altro tutor o a lezioni individuali — sono le lezioni successive a determinare se il recupero è andato davvero a buon fine.</p></div>
