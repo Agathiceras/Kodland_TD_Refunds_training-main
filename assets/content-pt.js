@@ -3,6 +3,7 @@ const PAGE_LANG='pt';
 const CONTENT = {
   flag:'🇧🇷', dir:'ltr',
   ui:{
+    pbLabel:'módulos concluídos',
     pageTitle:'Treinamento sobre reembolsos — Treinamento de Tutores Kodland',
     logoSub:'Departamento de Desenvolvimento de Tutores',
     heroEyebrow:'💸 Programa de treinamento para tutores',

@@ -4,6 +4,7 @@ const PAGE_LANG='ru';
 const CONTENT = {
   flag:'🇷🇺', dir:'ltr',
   ui:{
+    pbLabel:'модулей пройдено',
     pageTitle:'Возвраты — обучение преподавателей Kodland',
     logoSub:'Отдел развития преподавателей',
     heroEyebrow:'💸 Программа обучения преподавателей',

@@ -3,6 +3,7 @@ const PAGE_LANG='en';
 const CONTENT = {
   flag:'🇬🇧', dir:'ltr',
   ui:{
+    pbLabel:'modules complete',
     pageTitle:'Refunds Training — Kodland Tutor Training',
     logoSub:'Tutor Development Department',
     heroEyebrow:'💸 Tutor Training Program',

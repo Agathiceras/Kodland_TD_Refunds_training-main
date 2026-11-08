@@ -3,6 +3,7 @@ const PAGE_LANG='id';
 const CONTENT = {
   flag:'🇮🇩', dir:'ltr',
   ui:{
+    pbLabel:'modul selesai',
     pageTitle:'Pelatihan Pengembalian Dana — Pelatihan Tutor Kodland',
     logoSub:'Departemen Pengembangan Tutor',
     heroEyebrow:'💸 Program Pelatihan Tutor',

@@ -3,6 +3,7 @@ const PAGE_LANG='es';
 const CONTENT = {
   flag:'🇪🇸', dir:'ltr',
   ui:{
+    pbLabel:'módulos completados',
     pageTitle:'Capacitación sobre reembolsos — Capacitación de tutores de Kodland',
     logoSub:'Departamento de Desarrollo de Tutores',
     heroEyebrow:'💸 Programa de capacitación para tutores',

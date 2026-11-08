@@ -3,6 +3,7 @@ const PAGE_LANG='tr';
 const CONTENT = {
   flag:'🇹🇷', dir:'ltr',
   ui:{
+    pbLabel:'modül tamamlandı',
     pageTitle:'İade Eğitimi — Kodland Eğitmen Eğitimi',
     logoSub:'Eğitmen Gelişim Departmanı',
     heroEyebrow:'💸 Eğitmen Eğitim Programı',

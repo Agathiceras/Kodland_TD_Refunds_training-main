@@ -3,6 +3,7 @@ const PAGE_LANG='ar';
 const CONTENT = {
   flag:'🇸🇦', dir:'rtl',
   ui:{
+    pbLabel:'وحدات مكتملة',
     pageTitle:'تدريب استرداد المبالغ — تدريب المعلمين في Kodland',
     logoSub:'قسم تطوير المعلمين',
     heroEyebrow:'💸 برنامج تدريب المعلمين',

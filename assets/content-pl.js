@@ -3,6 +3,7 @@ const PAGE_LANG='pl';
 const CONTENT = {
   flag:'🇵🇱', dir:'ltr',
   ui:{
+    pbLabel:'ukończonych modułów',
     pageTitle:'Szkolenie o zwrotach środków — Szkolenie korepetytorów Kodland',
     logoSub:'Dział Rozwoju Korepetytorów',
     heroEyebrow:'💸 Program szkoleniowy dla korepetytorów',

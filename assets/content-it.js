@@ -3,6 +3,7 @@ const PAGE_LANG='it';
 const CONTENT = {
   flag:'🇮🇹', dir:'ltr',
   ui:{
+    pbLabel:'moduli completati',
     pageTitle:'Formazione sui rimborsi — Formazione Tutor Kodland',
     logoSub:'Dipartimento Sviluppo Tutor',
     heroEyebrow:'💸 Programma di formazione per tutor',
